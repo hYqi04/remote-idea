@@ -11,6 +11,7 @@ public class GitServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("这是doGet方法");
         super.doGet(req, resp);
     }
 
